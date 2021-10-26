@@ -15,7 +15,7 @@ To support sequential composition while targeting modern hardware, we enrich
 the standard event-based approach with _preconditions_ and
 _families of predicate transformers_.
 When calculating `[[S_1;S_2]]`, the predicate transformer applied to the
-precondition of an event $e$ from `[[S_2]]` is chosen based on the set of
+precondition of an event `e` from `[[S_2]]` is chosen based on the set of
 events in `[[S_1]]` upon which `e` depends.  We apply this approach to two
 existing memory models.
 
