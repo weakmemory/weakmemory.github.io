@@ -18,10 +18,10 @@
 
 # Использование виртуальной машины
 
-Самый простой способ подготовить окружение - использовать виртуальную машину. 
+Самый простой способ подготовить окружение - использовать [виртуальную машину](https://drive.google.com/drive/folders/18EvHt41y4JSFhZiVR5zB7AeUwESR85GT?usp=sharing). 
 
 1. Установите VirtualBox (мы используем версию 6.1), а также Oracle VM VirtualBox Extension pack.
-2. Откройте VirtualBox and перейдите в ``File/Import Appliance``. Укажите путь к файлу ``coq-env.ova`` и следуйте инструкциям установщика.
+2. Откройте VirtualBox and перейдите в ``File/Import Appliance``. Укажите путь к файлу ``coq-sirius21-env.ova`` и следуйте инструкциям установщика.
 3. Запустите только что созданную виртуальную машину. 
 	- В случае ошибки "RawFile#0 failed to create the raw output file ..." попробуйте отключить последовательные порты (`щелчок ПКМ по виртуальной машине -> Settings -> Serial Ports -> отключите поле "Enable Serial Port"`). Также [см. обсуждение](https://github.com/joelhandwell/ubuntu_vagrant_boxes/issues/1) связанной проблемы.
 4. Войдите в систему с именем пользователя и паролем "vagrant".
