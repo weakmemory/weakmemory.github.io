@@ -1,7 +1,7 @@
 # The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency
 
 Program logics and semantics tell a pleasant story about sequential
-composition: when executing `(S_1; S_2)`, we first execute `S_1` then `S_2`.
+composition: when executing `(S1; S2)`, we first execute `S1` then `S2`.
 To improve performance, however, processors execute instructions out of
 order, and compilers reorder programs even more dramatically.  By design,
 single-threaded systems cannot observe these reorderings; however,
@@ -14,9 +14,24 @@ thin-air behaviors which are unobservable in practice.
 To support sequential composition while targeting modern hardware, we enrich
 the standard event-based approach with _preconditions_ and
 _families of predicate transformers_.
-When calculating `[[S_1;S_2]]`, the predicate transformer applied to the
-precondition of an event `e` from `[[S_2]]` is chosen based on the set of
-events in `[[S_1]]` upon which `e` depends.  We apply this approach to two
+When calculating the meaning of `(S1;S2)`, the predicate transformer applied to the
+precondition of an event `e` from `S2` is chosen based on the set of
+events in `S1` upon which `e` depends.  We apply this approach to two
 existing memory models.
 
-*TODO*: Links
+## Paper:
+
+- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Ilya Kasin, Anton Podkopaev.  
+  **The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency**  
+  Proc. ACM Program. Lang. POPL (To appear, January 2022)  
+  [ [Draft Paper](https://github.com/chicago-relaxed-memory/seqcomp/blob/master/paper/DRAFT.pdf) ]
+  [ [Draft Appendices](https://github.com/chicago-relaxed-memory/seqcomp/blob/master/paper/DRAFT-APPENDICES.pdf) ]
+  
+## People:
+
+- [Alan Jeffrey](https://asaj.org/), Roblox
+- [James Riely](https://fpl.cs.depaul.edu/jriely/), DePaul University
+- [Mark Batty](https://www.kent.ac.uk/computing/people/3126/batty-mark), University of Kent
+- [Simon Cooksey](https://graymalk.in/), University of Kent
+- [Ilya Kasin](https://ilya.fun/), 
+- [Anton Podkopaev](https://podkopaev.net/)
