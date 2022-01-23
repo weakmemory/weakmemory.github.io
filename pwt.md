@@ -25,7 +25,9 @@ apply this approach to two existing memory models.
   Proc. ACM Program. Lang. POPL (To appear, January 2022)  
   [[Paper](https://github.com/chicago-relaxed-memory/seqcomp/raw/master/paper/DRAFT.pdf) |
    [Paper with Draft Appendices](https://github.com/chicago-relaxed-memory/seqcomp/raw/master/paper/DRAFT-APPENDIX.pdf) |
-   [Artifact @Zenodo](https://doi.org/10.5281/zenodo.5675056)]
+   [Artifact @Zenodo](https://doi.org/10.5281/zenodo.5675056)
+   [Short Video](https://youtu.be/vpkl2gR_wsQ)
+   [Long Video](https://youtu.be/pj912bYJ0Do)]
   
 ## People:
 
