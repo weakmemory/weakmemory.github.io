@@ -29,9 +29,11 @@ apply this approach to two existing memory models.
    <!-- [Short Video](https://youtu.be/vpkl2gR_wsQ) | -->
    <!-- [Long Video](https://youtu.be/pj912bYJ0Do)] -->
 
-[![Teaser](http://img.youtube.com/vi/vpkl2gR_wsQ/0.jpg)](http://www.youtube.com/watch?v=vpkl2gR_wsQ "Teaser")
-
-[![Presentation](http://img.youtube.com/vi/pj912bYJ0Do/0.jpg)](http://www.youtube.com/watch?v=pj912bYJ0Do "Presentation")
+- Conference Presentation
+  [![Presentation](http://img.youtube.com/vi/pj912bYJ0Do/0.jpg)](http://www.youtube.com/watch?v=pj912bYJ0Do "Presentation")
+ 
+- Teaser Video
+  [![Teaser](http://img.youtube.com/vi/vpkl2gR_wsQ/0.jpg)](http://www.youtube.com/watch?v=vpkl2gR_wsQ "Teaser")
 
 ## People:
 
