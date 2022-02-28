@@ -20,7 +20,7 @@ apply this approach to two existing memory models.
 
 ## Paper:
 
-- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Ilya Kasin, Anton Podkopaev.  
+- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Ilya Kaysin, Anton Podkopaev.  
   **The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency**  
   Proc. ACM Program. Lang., 6(POPL), January 2022.  
   [[Paper](https://github.com/chicago-relaxed-memory/seqcomp/raw/master/paper/DRAFT.pdf) |
@@ -42,5 +42,5 @@ apply this approach to two existing memory models.
 - [James Riely](https://fpl.cs.depaul.edu/jriely/), DePaul University
 - [Mark Batty](https://www.kent.ac.uk/computing/people/3126/batty-mark), University of Kent
 - [Simon Cooksey](https://graymalk.in/), University of Kent
-- [Ilya Kasin](https://ilya.fun/), JetBrains Research and University of Cambridge
+- [Ilya Kaysin](https://ilya.fun/), JetBrains Research and University of Cambridge
 - [Anton Podkopaev](https://podkopaev.net/), HSE University
