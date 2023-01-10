@@ -1,11 +1,13 @@
-### [К странице курса](index)
+### [To the course page](index)
 
-Для решения упражнений на Coq необходимо подготовить окружение.  
-Удобнее всего работать с доказательствами будет, если Вы установите всё необходимое напрямую в свою систему.  
-Другой, более быстрый способ - использовать виртуальную машину.  
+You need to set up an environment on your computer to solve Coq tasks.
+We recommend two alternatives:
+- Direct installation on your host with Linux/MacOS (harder to setup, but much more convenient to use);
+- Usage of a provided virtual machine image (easier to setup, but less convenient to use).
+Once you finish setting up Coq and necessary libraries, you will also need to setup an editor to be able to use Coq interactively.
+Check the corresponding section below.
 
-# Установка вручную
-
+# Direct installation on your host with Linux/MacOS
 Для установки вручную должна подойти любая ОС, поддерживающая ``opam`` (однако мы тестировали этот процесс только для Linux). В процессе установки может оказаться, что необходимо установить дополнительные пакеты в зависимости от Вашей системы.
 
 1. [Установите ``opam``](https://opam.ocaml.org/doc/Install.html) (мы тестировали установку с версией ``2.1.0``). 
@@ -19,11 +21,11 @@
 5. На данном шаге окружение должно быть готово. Запустите ``make`` и убедитесь, что при сборке файла ``src/b1.v`` выводится ошибка ``Tactic failure: tauto failed``. 
 6. Для редактирования доказательств Вы можете использовать любой редактор, доступный для Вашей системы. Убедитесь, что в выбранном редакторе Вы можете пошагово исполнить (см. последнюю секцию) файл ``src/b1.v`` вплоть до леммы ``nat_eq_tests_pass``, доказательство которой должно прерываться с упомянутой выше ошибкой. Список редакторов и ссылки на инструкции к ним расположены в следующей секции. 
    - Помимо редакторов общего назначения, Вы можете использовать CoqIDE - специализированную среду для работы с Coq.  
-     Она может быть установлена через ``opam`` командой ``opam install coqide.8.13.2``. Обратите внимание, что устанавливаемая версия CoqIDE должна совпадать с установленной версией Coq. Её можно узнать, выполнив команду ``opam list | grep coq``.   
+     Она может быть установлена через ``opam`` командой ``opam install coqide.8.15.2``. Обратите внимание, что устанавливаемая версия CoqIDE должна совпадать с установленной версией Coq. Её можно узнать, выполнив команду ``opam list | grep coq``.   
      Кроме того, Вам могут понадобиться пакеты вне ``opam`` (например, для Ubuntu 18 - ``libgtk-3-dev``, ``libgtksourceview-3.0-dev`` и ``pkg-config``). 
    - В Emacs некоторые символы, используемые в доказательствах, отсутствуют в шрифте по умолчанию. В Debian-based дистрибутивах это исправляется установкой пакета ``ttf-ancient-fonts``; для других дистрибутивов также должны существовать аналогичные пакеты. 
 
-# Использование виртуальной машины
+# Usage of a provided virtual machine image
 
 Самый простой способ подготовить окружение - использовать [виртуальную машину (файл ``coq-sirius21-env.ova``)](https://drive.google.com/drive/folders/18EvHt41y4JSFhZiVR5zB7AeUwESR85GT?usp=sharing). 
 
@@ -36,12 +38,13 @@
 6. Убедитесь, что ``make -j 4`` проходит по файлам ``*.v``. 
 7. В виртуальной машине доступны все редакторы, перечисленные в следующей секции.
 
-# Редакторы для интерактивной работы с доказательствами
+# Editors for interactive work on Coq proofs
+Proofs in Coq are intended to be written interactively. To help with that, there exist IDEs and plugins listed below.
+To check that you setted up an editor from the list correctly, open a `*.v` file from the repo
+and execute command "make a step" in the editor.
 
-Программы в Coq удобно исполнять пошагово, чтобы наблюдать за текущим состоянием доказательства. Такую возможность предоставляют редакторы, перечисленные ниже. Для каждого из них также указано, как выполнить в них команду "сделать шаг в доказательстве", чтобы убедиться в правильности установки. 
-
-- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html); кнопка "->" в панели инструментов
-- Emacs + [Proof General](https://proofgeneral.github.io/) ([горячие клавиши](https://proofgeneral.github.io/doc/master/userman/Basic-Script-Management/#Basic-Script-Management) в секции 2.6); кнопка "> Next" в панели инструментов
-- Vim + [Coqtail](https://github.com/whonore/Coqtail); последовательность клавиш ``<leader> c j`` (``<leader>`` по умолчанию - ``\``)
-- VSCode + [VSCoq](https://github.com/coq-community/vscoq); сочетание клавиш ``alt-Down``.
+- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html); button "->" in the toolbox
+- Emacs + [Proof General](https://proofgeneral.github.io/) ([hot keys](https://proofgeneral.github.io/doc/master/userman/Basic-Script-Management/#Basic-Script-Management) §2.6); button "> Next" in the toolbox
+- Vim + [Coqtail](https://github.com/whonore/Coqtail); a sequence ``<leader> c j`` (``<leader>`` equals to ``\`` by default)
+- VSCode + [VSCoq](https://github.com/coq-community/vscoq); a key combination ``alt-Down``.
 
