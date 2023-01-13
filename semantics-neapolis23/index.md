@@ -1,7 +1,7 @@
 # Semantics of Programming Languages (Neapolis, Spring'23)
 
 - [Instructions for setting up environment](INSTALL)
-- [Repo with Coq introductory problems](https://classroom.github.com/a/qV0z9qJT). Go by the link to create your own fork of the repo.
+- [Repo with Coq introductory problems](https://classroom.github.com/a/PDdEEN9_). Go by the link to create your own fork of the repo.
 - [Repo with semantics-related problems](https://classroom.github.com/a/GmV7Pa2-). Once you finished with the Coq introductory problems, you are supposed to start working on repo's files in the following order: ``Id.v``, ``State.v``, ``Expr.v``, ``Stmt.v``, ``Hoare.v``. 
 - [Previous class lecture videos (in Russian)](https://www.youtube.com/watch?v=sEiTqZmqY08&list=PLlb7e2G7aSpTA0aT2M1CvIWof3Osslo7Z)
 
