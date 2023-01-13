@@ -2,49 +2,108 @@
 
 You need to set up an environment on your computer to solve Coq tasks.
 We recommend two alternatives:
-- Direct installation on your host with Linux/MacOS (harder to setup, but much more convenient to use);
+- Direct installation on your machine with Linux/MacOS (harder to setup, but much more convenient to use);
 - Usage of a provided virtual machine image (easier to setup, but less convenient to use).
 Once you finish setting up Coq and necessary libraries, you will also need to setup an editor to be able to use Coq interactively.
 Check the corresponding section below.
 
-# Direct installation on your host with Linux/MacOS
-Для установки вручную должна подойти любая ОС, поддерживающая ``opam`` (однако мы тестировали этот процесс только для Linux). В процессе установки может оказаться, что необходимо установить дополнительные пакеты в зависимости от Вашей системы.
+# Direct installation on your machine with Linux/MacOS
 
-1. [Установите ``opam``](https://opam.ocaml.org/doc/Install.html) (мы тестировали установку с версией ``2.1.0``). 
-2. Инициализируйте ``opam``, выполнив ``opam init -a``. Ключ ``-a`` вносит изменения в ``~/.profile``, облегчающие пользование ``opam``, поэтому мы рекомендуем его оставить. 
-3. Создайте отдельное окружение ``opam``, переключитесь него и обновите текущую оболочку: ``opam switch create semantics 4.12.0; opam switch set semantics; eval $(opam env)``. Создание окружения займёт некоторое время. 
-   - Если Вы пользуетесь Mac и собираетесь работать в CoqIDE, рекомендуем вместо версии 4.12.0 ставить версию 4.11.1. 
-4. Загрузите локальную копию своего репозитория с задачами. 
-5. Установите зависимости проекта.  
-   Сначала убедитесь, что работаете в нужном окружении ``opam``: команда ``opam switch`` должна выделить только что созданное окружение ``semantics`` и не должна вывести предупреждений. Если это не так (что может случиться, если Вы открыли другое окно терминала), выполните ``opam switch semantics; eval $(opam env)``.  
-   Теперь, перейдите в каталог с локальным репозиторием Git и выполните в нём ``./configure``. Это добавит новые репозитории в текущее окружение ``opam`` и установит зависимости. Этот процесс займёт некоторое время. 
-5. На данном шаге окружение должно быть готово. Запустите ``make`` и убедитесь, что при сборке файла ``src/b1.v`` выводится ошибка ``Tactic failure: tauto failed``. 
-6. Для редактирования доказательств Вы можете использовать любой редактор, доступный для Вашей системы. Убедитесь, что в выбранном редакторе Вы можете пошагово исполнить (см. последнюю секцию) файл ``src/b1.v`` вплоть до леммы ``nat_eq_tests_pass``, доказательство которой должно прерываться с упомянутой выше ошибкой. Список редакторов и ссылки на инструкции к ним расположены в следующей секции. 
-   - Помимо редакторов общего назначения, Вы можете использовать CoqIDE - специализированную среду для работы с Coq.  
-     Она может быть установлена через ``opam`` командой ``opam install coqide.8.15.2``. Обратите внимание, что устанавливаемая версия CoqIDE должна совпадать с установленной версией Coq. Её можно узнать, выполнив команду ``opam list | grep coq``.   
-     Кроме того, Вам могут понадобиться пакеты вне ``opam`` (например, для Ubuntu 18 - ``libgtk-3-dev``, ``libgtksourceview-3.0-dev`` и ``pkg-config``). 
-   - В Emacs некоторые символы, используемые в доказательствах, отсутствуют в шрифте по умолчанию. В Debian-based дистрибутивах это исправляется установкой пакета ``ttf-ancient-fonts``; для других дистрибутивов также должны существовать аналогичные пакеты. 
+1. In order to install Coq we use [``opam`` package manager](https://opam.ocaml.org/).
+   You can find the installation instructions for ``opam`` [here](https://opam.ocaml.org/doc/Install.html).
+   Please note, that as of today ``opam`` **does not support** Windows.
+
+2. Initialize ``opam`` by running the following command.
+
+```sh
+opam init -a
+```
+
+3. Create a new [switch](https://opam.ocaml.org/doc/Manual.html#Switches). 
+   Switches allow you to easily change the version of OCaml compiler toolchain used to build coq. 
+   Switch creation process may take few minutes.
+
+```sh
+opam switch create semantics 4.12.0
+opam switch set semantics
+eval $(opam env)
+```
+
+4. Install Coq. In this course we will use Coq version 8.15.2. 
+   You can tell ``opam`` to fix this version using `opam pin` command 
+   (it means that ``opam`` will not try to install more recent versions, even if they are be available).
+   Coq installation may take few minutes. 
+   
+
+```sh
+opam remote add coq-released https://coq.inria.fr/opam/released
+opam pin add coq 8.15.2
+opam install coq
+```
+
+5. Install additional Coq libraries required by this course.
+
+```sh
+opam remote add coq-weakmemory-local -k git https://github.com/weakmemory/local-coq-opam-archive
+opam install coq-hahn
+```
+
+6. Check that your environent is propery set up. 
+   Download the course assignments repository. 
+   In the root folder of course assignments run the ``make`` command. 
+   It should start proof-checking file ``src/b1.v`` and then fail with the message ``Tactic failure: tauto failed``. 
+   
+7. For proof editing you may use any of the editors proposed in the corresponding section of this manual below.
+   Make sure you have correctly set up editor of your choice.
+   Try to open file ``src/b1.v`` and proof-check it in the step-by-step mode (see below). 
+   It should be checked successfully up until lemma ``nat_eq_tests_pass``, which should fail with the message mentioned above.
 
 # Usage of a provided virtual machine image
 
-Самый простой способ подготовить окружение - использовать [виртуальную машину (файл ``coq-sirius21-env.ova``)](https://drive.google.com/drive/folders/18EvHt41y4JSFhZiVR5zB7AeUwESR85GT?usp=sharing). 
+You can use the [provided virtual machine]() with Ubuntu 22.04 OS.
+It already has Coq, required libraries and all the code editors installed.
 
-1. Установите VirtualBox (мы используем версию 6.1), а также Oracle VM VirtualBox Extension pack.
-2. Откройте VirtualBox and перейдите в ``File/Import Appliance``. Укажите путь к файлу ``coq-sirius21-env.ova`` и следуйте инструкциям установщика.
-3. Запустите только что созданную виртуальную машину. 
-	- В случае ошибки "RawFile#0 failed to create the raw output file ..." попробуйте отключить последовательные порты (`щелчок ПКМ по виртуальной машине -> Settings -> Serial Ports -> отключите поле "Enable Serial Port"`). Также [см. обсуждение](https://github.com/joelhandwell/ubuntu_vagrant_boxes/issues/1) связанной проблемы.
-4. Войдите в систему с именем пользователя и паролем "vagrant".
-5. Клонируйте свой репозиторий с задачами в виртуальную машину. 
-6. Убедитесь, что ``make -j 4`` проходит по файлам ``*.v``. 
-7. В виртуальной машине доступны все редакторы, перечисленные в следующей секции.
+1. Install [VirtualBox]() (we recommend version 6.1), and Oracle VM VirtualBox Extension pack.
+
+2. Import the downloaded `.ova` file following the 
+   [instructions](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html#ovf-import-appliance) 
+   in the official documentation.
+
+3. Run the imported VM. 
+  - In case of the error "RawFile#0 failed to create the raw output file ..." try to disable serial ports
+    (In Virtual Box UI select the VM -> Settings -> Serial Ports -> uncheck "Enable Serial Port").
+
+4. Log in to the OS. 
+  - username: vagrant
+  - password: vagrant
+
+5. Check that VM is propery set up.
+   Download the course assignments repository. 
+   In the root folder of course assignments run the ``make`` command. 
+   It should start proof-checking file ``src/b1.v`` and then fail with the message ``Tactic failure: tauto failed``. 
 
 # Editors for interactive work on Coq proofs
+
 Proofs in Coq are intended to be written interactively. To help with that, there exist IDEs and plugins listed below.
 To check that you setted up an editor from the list correctly, open a `*.v` file from the repo
 and execute command "make a step" in the editor.
 
-- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html); button "->" in the toolbox
-- Emacs + [Proof General](https://proofgeneral.github.io/) ([hot keys](https://proofgeneral.github.io/doc/master/userman/Basic-Script-Management/#Basic-Script-Management) §2.6); button "> Next" in the toolbox
-- Vim + [Coqtail](https://github.com/whonore/Coqtail); a sequence ``<leader> c j`` (``<leader>`` equals to ``\`` by default)
-- VSCode + [VSCoq](https://github.com/coq-community/vscoq); a key combination ``alt-Down``.
+- [VSCode](https://code.visualstudio.com/) + [VSCoq](https://github.com/coq-community/vscoq). 
+  * Make a step command: a key combination ``Alt-Down``.
+
+- [Emacs](https://www.gnu.org/software/emacs/) + [Proof General](https://proofgeneral.github.io/). 
+  * Make a step command: button "> Next" in the toolbox, or `C-c C-n` key combination by default.
+  * Find other hot keys [here](https://proofgeneral.github.io/doc/master/userman/Basic-Script-Management/#Basic-Script-Management) (section §2.6).
+  * In Emacs editor, some symbols, used in the proofs, are absent in the default font. 
+    In the Debian-based distribution this issue can be fixed by installing the package ``ttf-ancient-fonts``.
+
+- [Vim](https://www.vim.org/) + [Coqtail](https://github.com/whonore/Coqtail). 
+  * Make a step command: a sequence ``<leader> c j`` (``<leader>`` equals to ``\`` by default).
+
+- Besides general purpose code editors you can use specialized editor for Coq --- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html).
+  Depending on your system, it may require you to install few packages. 
+  For example, on Ubuntu, you need to install ``pkg-config``, ``libgtk-3-dev``, and ``libgtksourceview-3.0-dev``.  
+  CoqIDE itself can be installed via ``opam``: ``opam install coqide``.
+  * Make a step command: button "->" in the toolbox.
+
 
