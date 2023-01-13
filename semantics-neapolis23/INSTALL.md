@@ -60,7 +60,7 @@ opam install coq-hahn
 
 # Usage of a provided virtual machine image
 
-You can use the [provided virtual machine]() with Ubuntu 22.04 OS.
+You can use the [provided virtual machine](https://drive.google.com/file/d/1mn-CwnQKMyEUSTNnCKTPT82Wf7Z-bpin/view?usp=share_link) with Ubuntu 22.04 OS.
 It already has Coq, required libraries and all the code editors installed.
 
 1. Install [VirtualBox]() (we recommend version 6.1), and Oracle VM VirtualBox Extension pack.
