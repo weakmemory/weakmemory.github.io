@@ -14,10 +14,10 @@
 <!-- 1. Реализовать операционную модель x86+FPGA из статьи [Iorga-al:OOPSLA21](https://doi.org/10.1145/3485497). -->
 
 ### Topics and Lectures
-TODO
+TBA
 
 ### Grading Schema
-TODO
+TBA
 
 ### Recommended Textbooks and Resources
 - Glynn Winskel. The Formal Semantics of Programming Languages;
