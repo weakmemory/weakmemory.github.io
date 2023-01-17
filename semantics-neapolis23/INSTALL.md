@@ -91,6 +91,12 @@ Proofs in Coq are intended to be written interactively. To help with that, there
 To check that you setted up an editor from the list correctly, open a `*.v` file from the repo
 and execute command "make a step" in the editor.
 
+- You can use specialized editor for Coq --- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html).
+  Depending on your system, it may require you to install few packages. 
+  For example, on Ubuntu, you need to install ``pkg-config``, ``libgtk-3-dev``, and ``libgtksourceview-3.0-dev``. 
+  CoqIDE itself can be installed via ``opam``: ``opam install coqide``.
+  * Make a step command: button "->" in the toolbox.
+
 - [VSCode](https://code.visualstudio.com/) + [VSCoq](https://github.com/coq-community/vscoq). 
   * Make a step command: a key combination ``Alt-Down``.
 
@@ -103,10 +109,5 @@ and execute command "make a step" in the editor.
 - [Vim](https://www.vim.org/) + [Coqtail](https://github.com/whonore/Coqtail). 
   * Make a step command: a sequence ``<leader> c j`` (``<leader>`` equals to ``\`` by default).
 
-- Besides general purpose code editors you can use specialized editor for Coq --- [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html).
-  Depending on your system, it may require you to install few packages. 
-  For example, on Ubuntu, you need to install ``pkg-config``, ``libgtk-3-dev``, and ``libgtksourceview-3.0-dev``. 
-  CoqIDE itself can be installed via ``opam``: ``opam install coqide``.
-  * Make a step command: button "->" in the toolbox.
 
 
