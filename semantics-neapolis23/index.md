@@ -37,6 +37,12 @@ Submitted solutions should not contain `admit` or `Admitted`.
 All homework assignments are splitted into two parts: 
 coq introductory problems and semantics related problems.
 
+| HW       | 1      | 2      | 3      | 4  | 5  | 6  | 7  | 8  | 9  |
+|----------|--------|--------|--------|----|----|----|----|----|----|
+| Deadline | Jan 24 | Jan 24 | Jan 27 | -- | -- | -- | -- | -- | -- |
+| Points   | 2      | 2      | 2      | -- | -- | -- | -- | -- | -- |
+
+
 #### Coq introductory problems
 
 Clone the [repository](https://classroom.github.com/a/PDdEEN9_) with the problems.
