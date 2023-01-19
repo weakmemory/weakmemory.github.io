@@ -20,8 +20,12 @@ TBA
 ### Homework assignments
 
 All homework assignments are provided via [GitHub Classroom](https://classroom.github.com/classrooms).
-Each individual assignemnt should be submitted for review as a separate pull request.
-The diff of each pull request should contain only the files relevant to the submitted assignment.
+Each individual assignment should be submitted for review as a separate pull request (to some branch in your fork).
+Pull request names should start with "HWn" where "n" is the number of the corresponding homework assignment.
+E.g., the one about "functional programming in Coq" should start with "HW1", and
+the one about "termination of the Euclid's algorithm"--"HW7".
+The diff of each pull request should contain only the files relevant to the submitted assignment,
+i.e., you may create a new branch for each new assignment and make a pull request from it to the previous one.
 When the pull request is ready for review, add the [instructor](https://github.com/eupp/) as an assignee.
 
 All assignments are given as Coq proof script files with `.v` extension.
