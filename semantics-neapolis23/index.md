@@ -1,8 +1,6 @@
 # Semantics of Programming Languages (Neapolis, Spring'23)
 
 - [Instructions for setting up environment](INSTALL)
-- [Repo with Coq introductory problems](https://classroom.github.com/a/PDdEEN9_). Go by the link to create your own fork of the repo.
-- [Repo with semantics-related problems](https://classroom.github.com/a/0MM1mmgs). Once you finished with the Coq introductory problems, you are supposed to start working on repo's files in the following order: ``Id.v``, ``State.v``, ``Expr.v``, ``Stmt.v``, ``Hoare.v``. 
 - [Previous class lecture videos (in Russian)](https://www.youtube.com/watch?v=sEiTqZmqY08&list=PLlb7e2G7aSpTA0aT2M1CvIWof3Osslo7Z)
 
 <!-- Задания для знакомых с Coq: -->
@@ -18,6 +16,48 @@ TBA
 
 ### Grading Schema
 TBA
+
+### Homework assignments
+
+All homework assignments are provided via [GitHub Classroom](https://classroom.github.com/classrooms).
+Each individual assignemnt should be submitted for review as a separate pull request.
+The diff of each pull request should contain only the files relevant to the submitted assignment.
+When the pull request is ready for review, add the [instructor](https://github.com/eupp/) as an assignee.
+
+All assignments are given as Coq proof script files with `.v` extension.
+You supposed to provide all missing definitions and prove admitted lemmas and theorems.
+It is forbidden to modify provided definitions or lemma statements, 
+however you are free to add your own new definitions or auxiliary lemmas.
+Submitted solutions should not contain `admit` or `Admitted`.
+
+All homework assignments are splitted into two parts: 
+coq introductory problems and semantics related problems.
+
+#### Coq introductory problems
+
+Clone the [repository](https://classroom.github.com/a/PDdEEN9_) with the problems.
+
+1. `b1.v` --- functional programming in Coq: implement dictionary abstract datatype in Coq via partial function and list of pairs.  
+
+2. `b2.v` --- tactics essentials: prove basic properties of dictionaries.
+
+3. `b3.v` --- tactics practice: prove more properties of dictionaries. 
+
+#### Semantics problems
+
+Clone the [repository](https://classroom.github.com/a/0MM1mmgs) with the problems.
+
+4. `Id.v` and `State.v` --- prove properties of identifiers and states.
+
+5. `Expr.v` --- prove properties of expression language.
+
+6. `Stmt.v` --- prove properties of big step semantics.
+
+7. `Euclid.v` --- prove termination of the Euclid's algoritm.  
+
+8. `SmallStep.v` --- prove properties of small step semantics.
+
+9. `Hoare.v` --- prove soundness of the Hoare logic rules.
 
 ### Recommended Textbooks and Resources
 - Glynn Winskel. The Formal Semantics of Programming Languages;
