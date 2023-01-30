@@ -22,6 +22,25 @@ coq introductory problems and semantics related problems.
 | Deadline | Feb 2  | Feb 2  | Feb 5  | -- | -- | -- | -- | -- | -- |
 | Points   | 2      | 2      | 2      | -- | -- | -- | -- | -- | -- |
 
+## Building Homework Projects ##
+
+All repositories with homeworks are equipped with a `Makefile` 
+that builds all the source files with the assignments. 
+It is sufficient to run `make` command. 
+
+Besides that, `make` command also creates `_CoqProject`. 
+This file is required by the IDE in order to import the project files properly. 
+Thus you might need to run `make` command before you open the homework files in your IDE.
+
+** Important Note. **
+Some assignments depend on files from previous assignments. 
+For example, file `b2.v` imports `b1.v`.
+In order for this import to work (both in batch and interactive mode)
+you need to first build `b1.v` file. 
+Thus, you should perform the following steps: 
+1. complete `b1.v` assignments, check that everything compiles in interactive mode in your IDE;
+2. run `make` to build `b1.v`;
+3. open `b2.v` in your IDE --- now the import of `b1.v` should work. 
 
 ## Coq introductory problems
 
