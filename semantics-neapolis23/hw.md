@@ -1,5 +1,21 @@
 # Homework assignments
 All homework assignments are provided via [GitHub Classroom](https://classroom.github.com/classrooms).
+The assignments are split between two repositories:
+1. (HW1, HW2, HW3) [Coq introductory problems](https://classroom.github.com/a/PDdEEN9_)
+2. (HW4, ...) [Semantics problems](https://classroom.github.com/a/0MM1mmgs)
+
+| HW       | 1      | 2      | 3      | 4  | 5  | 6  | 7  | 8  | 9  |
+|----------|--------|--------|--------|----|----|----|----|----|----|
+| Deadline | Feb 2  | Feb 2  | Feb 5  | -- | -- | -- | -- | -- | -- |
+| Points   | 2      | 2      | 2      | -- | -- | -- | -- | -- | -- |
+
+All assignments are given as Coq proof script files with `.v` extension.
+You supposed to provide all missing definitions and prove admitted lemmas and theorems.
+It is forbidden to modify provided definitions or lemma statements, 
+however you are free to add your own new definitions or auxiliary lemmas.
+Submitted solutions should not contain `admit` or `Admitted`.
+
+## How to submit solutions
 Each individual assignment should be submitted for review as a separate pull request (to some branch in your fork).
 Pull request names should start with "HWn" where "n" is the number of the corresponding homework assignment.
 E.g., the one about "functional programming in Coq" should start with "HW1", and
@@ -8,32 +24,19 @@ The diff of each pull request should contain only the files relevant to the subm
 i.e., you may create a new branch for each new assignment and make a pull request from it to the previous one.
 When the pull request is ready for review, add the [instructor](https://github.com/eupp/) as an assignee.
 
-All assignments are given as Coq proof script files with `.v` extension.
-You supposed to provide all missing definitions and prove admitted lemmas and theorems.
-It is forbidden to modify provided definitions or lemma statements, 
-however you are free to add your own new definitions or auxiliary lemmas.
-Submitted solutions should not contain `admit` or `Admitted`.
+## Description of the homework assignments
 
-All homework assignments are splitted into two parts: 
-coq introductory problems and semantics related problems.
-
-| HW       | 1      | 2      | 3      | 4  | 5  | 6  | 7  | 8  | 9  |
-|----------|--------|--------|--------|----|----|----|----|----|----|
-| Deadline | Feb 2  | Feb 2  | Feb 5  | -- | -- | -- | -- | -- | -- |
-| Points   | 2      | 2      | 2      | -- | -- | -- | -- | -- | -- |
-
-
-## Coq introductory problems
+### Coq introductory problems
 
 Clone the [repository](https://classroom.github.com/a/PDdEEN9_) with the problems.
 
-1. `b1.v` --- functional programming in Coq: implement dictionary abstract datatype in Coq via partial function and list of pairs.  
+1. (HW1) `b1.v` --- functional programming in Coq: implement dictionary abstract datatype in Coq via partial function and list of pairs.  
 
-2. `b2.v` --- tactics essentials: prove basic properties of dictionaries.
+2. (HW2) `b2.v` --- tactics essentials: prove basic properties of dictionaries.
 
-3. `b3.v` --- tactics practice: prove more properties of dictionaries. 
+3. (HW3) `b3.v` --- tactics practice: prove more properties of dictionaries. 
 
-## Semantics problems
+### Semantics problems
 
 Clone the [repository](https://classroom.github.com/a/0MM1mmgs) with the problems.
 
