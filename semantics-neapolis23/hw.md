@@ -4,10 +4,10 @@ The assignments are split between two repositories:
 1. (HW1, HW2, HW3) [Coq introductory problems](https://classroom.github.com/a/PDdEEN9_)
 2. (HW4, ...) [Semantics problems](https://classroom.github.com/a/0MM1mmgs)
 
-| HW       | 1     | 2     | 3     | 4      | 5  | 6  | 7  | 8  | 9  |
-|----------|-------|-------|-------|--------|----|----|----|----|----|
-| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | -- | -- | -- | -- | -- |
-| Points   | 2     | 2     | 2     | 2      | -- | -- | -- | -- | -- |
+| HW       | 1     | 2     | 3     | 4      | 5      | 6  | 7  | 8  | 9  |
+|----------|-------|-------|-------|--------|--------|----|----|----|----|
+| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | Feb 15 | -- | -- | -- | -- |
+| Points   | 2     | 2     | 2     | 2      | 2      | -- | -- | -- | -- |
 
 All assignments are given as Coq proof script files with `.v` extension.
 You supposed to provide all missing definitions and prove admitted lemmas and theorems.
@@ -59,7 +59,7 @@ Clone the [repository](https://classroom.github.com/a/0MM1mmgs) with the problem
 
 4. (HW4) `Id.v` and `State.v` --- prove properties of identifiers and states.
 
-5. `Expr.v` --- prove properties of expression language.
+5. (HW5) `Expr.v` --- prove properties of expression language.
 
 6. `Stmt.v` --- prove properties of big step semantics.
 
