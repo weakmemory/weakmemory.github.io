@@ -12,10 +12,8 @@
 <!-- Задания для знакомых с Coq и семантиками: -->
 <!-- 1. Реализовать операционную модель x86+FPGA из статьи [Iorga-al:OOPSLA21](https://doi.org/10.1145/3485497). -->
 
-### Lectures
-You could take a look at Coq files produced at lectures [here](https://gist.github.com/anlun/0c45a95f961a47ef2e5b75c38632ab92).
+### [Coq files from lectures](https://gist.github.com/anlun/0c45a95f961a47ef2e5b75c38632ab92)
 
-TBA
 <!-- 1. Introduction to semantics  -->
 
 <!-- ### Grading Schema -->
