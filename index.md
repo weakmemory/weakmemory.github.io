@@ -5,3 +5,5 @@
 [Seminar on events structures (in Russian)](https://weakmemory.github.io/seminar-event-struct)
 
 [Semantics class @ Neapolis'23](https://weakmemory.github.io/semantics-neapolis23)
+
+[Semantics class @ Constructor'23](https://weakmemory.github.io/semantics-cub23)
