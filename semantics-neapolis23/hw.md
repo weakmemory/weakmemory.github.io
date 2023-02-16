@@ -4,10 +4,10 @@ The assignments are split between two repositories:
 1. (HW1, HW2, HW3) [Coq introductory problems](https://classroom.github.com/a/PDdEEN9_)
 2. (HW4, ...) [Semantics problems](https://classroom.github.com/a/0MM1mmgs)
 
-| HW       | 1     | 2     | 3     | 4      | 5      | 6  | 7  | 8  | 9  |
-|----------|-------|-------|-------|--------|--------|----|----|----|----|
-| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | Feb 15 | -- | -- | -- | -- |
-| Points   | 2     | 2     | 2     | 2      | 2      | -- | -- | -- | -- |
+| HW       | 1     | 2     | 3     | 4      | 5      | 6      | 7      | 8      | 9      |
+|----------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
+| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | Feb 15 | Feb 23 | Mar 2  | Mar  9 | Mar 16 |
+| Points   | 2     | 2     | 2     | 2      | 2      | 2      | 2      | 2      | 2      |
 
 All assignments are given as Coq proof script files with `.v` extension.
 You supposed to provide all missing definitions and prove admitted lemmas and theorems.
@@ -61,10 +61,10 @@ Clone the [repository](https://classroom.github.com/a/0MM1mmgs) with the problem
 
 5. (HW5) `Expr.v` --- prove properties of expression language.
 
-6. `Stmt.v` --- prove properties of big step semantics.
+6. (HW6) `Stmt.v` --- prove properties of big step semantics.
 
-7. `Euclid.v` --- prove termination of the Euclid's algoritm.  
+7. (HW7) `Euclid.v` --- prove termination of the Euclid's algoritm.  
 
-8. `SmallStep.v` --- prove properties of small step semantics.
+8. (HW8) `SmallStep.v` --- prove properties of small step semantics.
 
-9. `Hoare.v` --- prove soundness of the Hoare logic rules.
+9. (HW9) `Hoare.v` --- prove soundness of the Hoare logic rules.
