@@ -6,7 +6,7 @@ The assignments are split between two repositories:
 
 | HW       | 1     | 2     | 3     | 4      | 5      | 6      | 7      | 8      | 9      |
 |----------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
-| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | Feb 15 | Feb 23 | Mar 2  | Mar  9 | Mar 16 |
+| Deadline | Feb 2 | Feb 2 | Feb 5 | Feb 12 | Feb 15 | Mar 2  | Mar  9 | Mar 16 | Mar 23 |
 | Points   | 2     | 2     | 2     | 2      | 2      | 2      | 2      | 2      | 2      |
 
 All assignments are given as Coq proof script files with `.v` extension.
