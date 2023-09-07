@@ -5,3 +5,6 @@
 [Semantics class @ Neapolis'23](https://weakmemory.github.io/semantics-neapolis23)
 
 [Semantics class @ Constructor'23](https://weakmemory.github.io/semantics-cub23)
+
+[Weak memory models course @ Constructor University'23](https://weakmemory.github.io/wmm-constructor23)
+
