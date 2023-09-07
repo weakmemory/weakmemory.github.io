@@ -17,7 +17,7 @@ and discuss open problems in the research area.
 
 - 11.09: Introduction to weak memory (Lecture)
 - 14.09: Basic operational semantics of concurrency (Lecture)
-- 18.90: Basic operational semantics of concurrency (Seminar)
+- 18.09: Basic operational semantics of concurrency (Seminar)
 - **TBA**
 
 ### Grading System
@@ -31,21 +31,27 @@ To achieve the highest possible grade, you should aim to accumulate a total of 1
 #### Activities.
 
 * Programming assignment **(50 points)**
-** single semester-long customizable project
+  ** single semester-long project
+  ** students can use programming language of their choice
+  ** solution should be submitted as a GitHub repository
+  ** assessment of this task includes demonstration of the tool to the lecturer
 
 * Pen-and-paper proof assignments **(20 points)**
+  ** should be submitted as TeX documents using provided document template
 
 * Mechanized proof assignments in the Coq **(50 points)**
+  ** for students familiar with interactive proof assistants, there is an option to mechanize the proofs in Coq
 
 * Tooling assignments **(30 points)**
-** typical assignment in this category requires a student to utilize some software to achieve a goal
-** for example, one task is to verify a concurrent algorithm using given verification tool 
+  ** typical assignment in this category requires from student to utilize some software to achieve a goal
+  ** for example, one task is to verify a concurrent algorithm using given verification tool 
 
-* Participation in seminars **(10 points)**
-** solve challenges at seminar and explain your solution
-** explain solutions to homework assignements (after their deadline)
+* Participation in the seminars **(10 points)**
+  ** solve challenges at seminar and explain your solution
+  ** explain solutions to homework assignements (after their deadline)
 
 * Written exam **(30 points)**
+  ** held at the end of the course
 
 ### Homework assignments
 
