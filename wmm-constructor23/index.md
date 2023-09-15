@@ -17,7 +17,9 @@ and discuss open problems in the research area.
 
 - 11.09: Introduction to weak memory (Lecture)
 - 14.09: Basic operational semantics of concurrency (Lecture)
-- 18.09: Basic operational semantics of concurrency (Seminar)
+- 18.09: Basic declarative semantics of concurrency (Lecture)
+- 21.09: Basic operational semantics of concurrency (Seminar)
+- 25.09: Basic declarative semantics of concurrency (Seminar)
 - **TBA**
 
 ### Grading System
