@@ -25,13 +25,23 @@ Notes on ISA:
 
 ### Tasks
 
-1. Basics (**8 points**). \
+1. Basics **(8 points)**. \
    Implement a non-deterministic interpreter for the given ISA — it should choose one random execution on each run. 
    Split thread and storage subsystems in your implementation. 
    Implement SC and TSO memory subsystems. 
    *Notes: this task is a pre-requisite for all other tasks.*
 
-2. Add support for PSO memory subsystem (**2 points**).
+2. Add support for PSO memory subsystem **(2 points)**.
 
+3. Support tracing mode **(5 points)**. \
+   In this mode the interpreter should print interleaving of a given execution 
+   and intermediate states of thread and storage subsystems. 
+   *Notes: this task is a pre-requisite for task 4 (interactive mode).*
+
+4. Support interactive mode **(2 points)**. \ 
+   The user should be able to make a decision on what execution to explore at each choice point. 
+
+5. Support model-checking mode **(3 points)**. \ 
+   This mode should enumerate all possible executions of a given program.
 
 **... TBA ...** 
