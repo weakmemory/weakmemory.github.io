@@ -61,7 +61,7 @@ To achieve the highest possible grade, you should aim to accumulate a total of 1
 
 Please find the description on the [dedicated page]({{ site.url }}/wmm-constructor23/programming-assignment.html).
 
-**Deadline:** 26.10.2023
+**Deadline:** 26.11.2023
 
 #### Theory assignments
 

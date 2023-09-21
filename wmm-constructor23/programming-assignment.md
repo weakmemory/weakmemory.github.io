@@ -25,7 +25,7 @@ Notes on ISA:
 
 ### Tasks
 
-1. Basics (**8 points**).
+1. Basics (**8 points**). \
    Implement a non-deterministic interpreter for the given ISA — it should choose one random execution on each run. 
    Split thread and storage subsystems in your implementation. 
    Implement SC and TSO memory subsystems. 
