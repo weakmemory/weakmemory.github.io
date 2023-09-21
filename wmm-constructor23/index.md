@@ -57,6 +57,10 @@ To achieve the highest possible grade, you should aim to accumulate a total of 1
 
 ### Homework assignments
 
+#### Programmin assignment
+
+Please find the description on the [dedicated page]({{ site.url }}/wmm-constructor23/programming-assignment.html).
+
 #### Theory assignments
 
 - Basic operational semantics of concurrency \
