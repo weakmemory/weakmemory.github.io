@@ -59,9 +59,9 @@ To achieve the highest possible grade, you should aim to accumulate a total of 1
 
 #### Theory assignments
 
-- Basic operational semantics of concurrency
-  [pdf]({{ site.url }}/wmm-constructor23/wmm-operational-semantics-theory.pdf)
-  [classroom](https://classroom.github.com/a/6VNr9oC1) \
+- Basic operational semantics of concurrency \
+  [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-operational-semantics-theory.pdf)
+  [\[classroom\]](https://classroom.github.com/a/6VNr9oC1) \
   *Deadline:* 05.10.2023
 
 **TBA**
