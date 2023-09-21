@@ -38,10 +38,10 @@ Notes on ISA:
    and intermediate states of thread and storage subsystems. 
    *Notes: this task is a pre-requisite for task 4 (interactive mode).*
 
-4. Support interactive mode **(2 points)**. \ 
+4. Support interactive mode **(2 points)**. \
    The user should be able to make a decision on what execution to explore at each choice point. 
 
-5. Support model-checking mode **(3 points)**. \ 
+5. Support model-checking mode **(3 points)**. \
    This mode should enumerate all possible executions of a given program.
 
 **... TBA ...** 
