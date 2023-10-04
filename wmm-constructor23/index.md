@@ -20,6 +20,9 @@ and discuss open problems in the research area.
 - 18.09: Basic declarative semantics of concurrency (Lecture)
 - 21.09: Basic operational semantics of concurrency (Seminar)
 - 25.09: Basic declarative semantics of concurrency (Seminar)
+- 28.09: Simplified C/C++ memory model --- Release-Acquire fragment (Lecture)
+- 02.10: Correspondence between declarative and operational semantics, part 1 (Lecture)
+- 05.10: Correspondence between declarative and operational semantics, part 2 (Lecture)
 - **TBA**
 
 ### Grading System
