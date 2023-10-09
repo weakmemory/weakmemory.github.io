@@ -84,7 +84,7 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
 #### Coq assignments
 
 - Basic operational semantics of concurrency **(20 points)** \
-  Mechanize the proof that TSO memory subsystem is weaker than SC. 
+  Mechanize the proof that TSO memory subsystem is weaker than SC. \
   [\[classroom\]](https://classroom.github.com/a/Bp4sCNFW) \
   **Deadline:** 06.11.2023
 
