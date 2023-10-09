@@ -23,7 +23,7 @@ and discuss open problems in the research area.
 - 28.09: Simplified C/C++ memory model --- Release-Acquire fragment (Lecture)
 - 02.10: Correspondence between declarative and operational semantics SC, part 1 (Lecture)
 - 05.10: Correspondence between declarative and operational semantics SC, part 2 (Lecture)
-- 09.10: (Seminar)
+- 09.10: Review of homework assignments (Seminar)
 - 12.10: (Seminar)
 - 16.10: Correspondence between declarative and operational semantics StrongCOH, RA (Lecture)
 - **TBA**
@@ -75,5 +75,10 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
   [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-operational-semantics-theory.pdf)
   [\[classroom\]](https://classroom.github.com/a/6VNr9oC1) \
   **Deadline:** 05.10.2023
+
+- Basic declarative semantics of concurrency \
+  [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-declarative-semantics-theory.pdf)
+  [\[classroom\]](https://classroom.github.com/a/u9fRd7S3) \
+  **Deadline:** 23.10.2023
 
 **TBA**
