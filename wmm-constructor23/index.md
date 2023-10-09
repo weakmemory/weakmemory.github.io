@@ -71,14 +71,21 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
 
 #### Theory assignments
 
-- Basic operational semantics of concurrency \
+- Basic operational semantics of concurrency **(10 points)** \
   [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-operational-semantics-theory.pdf)
   [\[classroom\]](https://classroom.github.com/a/6VNr9oC1) \
   **Deadline:** 05.10.2023
 
-- Basic declarative semantics of concurrency \
+- Basic declarative semantics of concurrency **(10 points)** \
   [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-declarative-semantics-theory.pdf)
   [\[classroom\]](https://classroom.github.com/a/u9fRd7S3) \
   **Deadline:** 23.10.2023
+
+#### Coq assignments
+
+- Basic operational semantics of concurrency **(20 points)** \
+  Mechanize the proof that TSO memory subsystem is weaker than SC. 
+  [\[classroom\]](https://classroom.github.com/a/Bp4sCNFW) \
+  **Deadline:** 06.11.2023
 
 **TBA**
