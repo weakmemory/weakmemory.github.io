@@ -24,7 +24,7 @@ and discuss open problems in the research area.
 - 02.10: Correspondence between declarative and operational semantics SC, part 1 (Lecture)
 - 05.10: Correspondence between declarative and operational semantics SC, part 2 (Lecture)
 - 09.10: Review of homework assignments (Seminar)
-- 12.10: (Seminar)
+- 12.10: Atomics in C/C++ language, model checking concurrent programs with GenMC (Seminar)
 - 16.10: Correspondence between declarative and operational semantics StrongCOH, RA (Lecture)
 - **TBA**
 
