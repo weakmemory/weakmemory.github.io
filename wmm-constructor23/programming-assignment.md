@@ -44,4 +44,14 @@ Notes on ISA:
 5. Support model-checking mode **(3 points)**. \
    This mode should enumerate all possible executions of a given program.
 
-**... TBA ...** 
+6. Support Strong Release Acquire (SRA) model storage subsystem **(5 points)**. \
+   Support memory accesses annotated with relaxed and release/acquire modes.
+
+7. In addition to SRA, support Release Acquire (RA) model storage subsystem **(5 points)**.
+
+8. For SRA (and RA), add support for release and acquire fences **(5 points)**.
+
+9. For SRA (and RA), add support for full seq-cst fence **(5 points)**.
+
+10. Generate execution graphs **(10 points)**. \
+    Output graphs in `.dot` format and visualize them using [graphviz](https://graphviz.org/doc/info/lang.html).
