@@ -15,24 +15,31 @@ and discuss open problems in the research area.
 
 ### Topics and Lectures
 
-- 11.09: Introduction to weak memory (Lecture)
-- 14.09: Basic operational semantics of concurrency (Lecture)
-- 18.09: Basic declarative semantics of concurrency (Lecture)
-- 21.09: Basic operational semantics of concurrency (Seminar)
-- 25.09: Basic declarative semantics of concurrency (Seminar)
-- 28.09: Simplified C/C++ memory model --- Release-Acquire fragment (Lecture)
-- 02.10: Correspondence between declarative and operational semantics SC, part 1 (Lecture)
-- 05.10: Correspondence between declarative and operational semantics SC, part 2 (Lecture)
-- 09.10: Review of homework assignments (Seminar)
-- 12.10: Atomics in C/C++ language, model checking concurrent programs with GenMC (Seminar)
-- 16.10: Correspondence between declarative and operational semantics: StrongCOH, RA (Lecture)
-- 19.10: Correspondence between declarative and operational semantics: StrongCOH, RA, SRA (Seminar)
-- 26.10: TBD (Seminar)
-- 30.10: Correctness of compilation under weak memory models (Lecture)
-- 02.11: The C/C++ memory model (Lecture)
-- 06.11: Data-Race-Freedom (DRF) guarantees (Lecture)
-- 09.11: The Out-of-thin-air (OOTA) problem (Lecture)
-- **TBA**
+- 11.09: (Lecture) Introduction to weak memory 
+- 14.09: (Lecture) Basic operational semantics of concurrency 
+- 18.09: (Lecture) Basic declarative semantics of concurrency 
+- 21.09: (Seminar) Basic operational semantics of concurrency 
+- 25.09: (Seminar) Basic declarative semantics of concurrency 
+- 28.09: (Lecture) Simplified C/C++ memory model --- Release-Acquire fragment 
+- 02.10: (Lecture) Correspondence between declarative and operational semantics SC, part 1 
+- 05.10: (Lecture) Correspondence between declarative and operational semantics SC, part 2 
+- 09.10: (Seminar) Review of homework assignments 
+- 12.10: (Seminar) Atomics in C/C++ language, model checking concurrent programs with GenMC 
+- 16.10: (Lecture) Correspondence between declarative and operational semantics:  StrongCOH, RA 
+- 19.10: (Seminar) Correspondence between declarative and operational semantics: StrongCOH, RA, SRA 
+- 26.10: (Seminar) TBA
+- 30.10: (Lecture) Correctness of compilation under weak memory models 
+- 02.11: (Lecture) The C/C++ memory model 
+- 06.11: (Lecture) Data-Race-Freedom (DRF) guarantees
+- 09.11: (Lecture) The Out-of-thin-air (OOTA) problem
+- 13.11: TBA
+- 16.11: TBA
+- 20.11: TBA
+- 23.11: TBA
+- 27.11: TBA
+- 30.11: TBA
+- 04.12: TBA
+- 07.12: TBA
 
 ### Grading System
 
