@@ -27,12 +27,12 @@ and discuss open problems in the research area.
 - 12.10: (Seminar) Atomics in C/C++ language, model checking concurrent programs with GenMC 
 - 16.10: (Lecture) Correspondence between declarative and operational semantics:  StrongCOH, RA 
 - 19.10: (Seminar) Correspondence between declarative and operational semantics: StrongCOH, RA, SRA 
-- 26.10: (Seminar) TBA
+- 26.10: (Seminar) Discussion of the homework assignments
 - 30.10: (Lecture) Correctness of compilation under weak memory models 
 - 02.11: (Lecture) The C/C++ memory model 
 - 06.11: (Lecture) Data-Race-Freedom (DRF) guarantees
 - 09.11: (Lecture) The Out-of-thin-air (OOTA) problem
-- 13.11: TBA
+- 13.11: (Seminar) Promising semantics
 - 16.11: TBA
 - 20.11: TBA
 - 23.11: TBA
