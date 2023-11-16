@@ -92,7 +92,7 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
 - Basic declarative semantics of concurrency **(10 points)** \
   [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-declarative-semantics-theory.pdf)
   [\[classroom\]](https://classroom.github.com/a/u9fRd7S3) \
-  **Deadline:** 03.11.2023
+  **Deadline:** 23.11.2023
 
 #### Coq assignments
 
