@@ -10,10 +10,12 @@ You need to support the following instruction set:
 - `if r goto L` conditional jump on label `L` 
 - `load m #r1 r2` load value from memory by address stored in `r1` into register `r2` 
 - `store m #r1 r2` store value from register `r2` into memory by address stored in `r1` 
-- `cas m #r1 r2 r3` compare-and-swap value in memory by address stored in `r1`, 
-     expected value is stored in `r2`, desired value is stored in `r3` 
-- `fai m #r1 r2` fetch-and-increment value in memory by address stored in `r1`, 
-     increment value is stored in `r2` 
+- `r1 := cas m #r2 r3 r4` compare-and-swap value in memory by address stored in `r2`, 
+     expected value is stored in `r3`, desired value is stored in `r4`, 
+	 shoud return the actually read value in register `r1`.  
+- `r1 := fai m #r2 r3` fetch-and-increment value in memory by address stored in `r2`, 
+     the value to increment by is stored in `r3`,
+	 should return the read value prior increment in register `r1`.
 - `fence m` memory fence instruction 
 
 Notes on ISA:
