@@ -96,7 +96,7 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
 
 #### Tooling assignments
 
-- Model checking concurrent C programs under weak memory **(20 points)**
+- Model checking concurrent C programs under weak memory **(20 points)** \
   [\[classroom\]](https://classroom.github.com/a/Zver39mj) \
   **Deadline:** 03.12.2023
 
