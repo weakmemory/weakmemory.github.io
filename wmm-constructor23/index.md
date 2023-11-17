@@ -33,7 +33,7 @@ and discuss open problems in the research area.
 - 06.11: (Lecture) Data-Race-Freedom (DRF) guarantees
 - 09.11: (Lecture) The Out-of-thin-air (OOTA) problem
 - 13.11: (Seminar) Promising semantics
-- 16.11: TBA
+- 16.11: (Lecture) Model checking concurrent programs under weak memory
 - 20.11: TBA
 - 23.11: TBA
 - 27.11: TBA
