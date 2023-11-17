@@ -63,7 +63,7 @@ To achieve the highest possible grade, you should aim to accumulate a total of 1
 * Mechanized proof assignments in the Coq **(50 points)**
   * for students familiar with interactive proof assistants, there is an option to mechanize the proofs in Coq
 
-* Tooling assignments **(30 points)**
+* Tooling assignments **(20 points)**
   * typical assignment in this category requires from student to utilize some software to achieve a goal
   * for example, one task is to verify a concurrent algorithm using given verification tool 
 
@@ -93,6 +93,12 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
   [\[pdf\]]({{ site.url }}/wmm-constructor23/wmm-declarative-semantics-theory.pdf)
   [\[classroom\]](https://classroom.github.com/a/u9fRd7S3) \
   **Deadline:** 23.11.2023
+
+#### Tooling assignments
+
+- Model checking concurrent C programs under weak memory **(20 points)**
+  [\[classroom\]](https://classroom.github.com/a/Zver39mj) \
+  **Deadline:** 03.12.2023
 
 #### Coq assignments
 
