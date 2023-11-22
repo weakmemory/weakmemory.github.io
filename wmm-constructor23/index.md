@@ -34,8 +34,8 @@ and discuss open problems in the research area.
 - 09.11: (Lecture) The Out-of-thin-air (OOTA) problem
 - 13.11: (Seminar) Promising semantics
 - 16.11: (Lecture) Model checking concurrent programs under weak memory
-- 20.11: TBA
-- 23.11: TBA
+- 20.11: (Lecture) Intermediate Memory Model (IMM) and compilation correctness from PL to HW models
+- 23.11: (Lecture) Intermediate Memory Model (IMM) and compilation correctness from PL to HW models
 - 27.11: TBA
 - 30.11: TBA
 - 04.12: TBA
