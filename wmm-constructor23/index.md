@@ -107,4 +107,8 @@ Please find the description on the [dedicated page]({{ site.url }}/wmm-construct
   [\[classroom\]](https://classroom.github.com/a/Bp4sCNFW) \
   **Deadline:** 06.11.2023
 
-**TBA**
+- Basic declarative semantics of concurrency **(30 points)** \
+  Mechanize the proofs about coherence property. \
+  [\[classroom\]](https://classroom.github.com/a/u1nB71VR) \
+  **Deadline:** 09.12.2023
+
