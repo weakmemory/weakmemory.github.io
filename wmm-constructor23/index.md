@@ -36,8 +36,8 @@ and discuss open problems in the research area.
 - 16.11: (Lecture) Model checking concurrent programs under weak memory
 - 20.11: (Lecture) Intermediate Memory Model (IMM) and compilation correctness from PL to HW models
 - 23.11: (Lecture) Intermediate Memory Model (IMM) and compilation correctness from PL to HW models
-- 27.11: TBA
-- 30.11: TBA
+- 27.11: (Seminar) Programming assignments review
+- 30.11: (Seminar) Q&A, C++ and Java memory models
 - 04.12: TBA
 - 07.12: TBA
 
