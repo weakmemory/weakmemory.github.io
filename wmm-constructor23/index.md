@@ -25,7 +25,7 @@ and discuss open problems in the research area.
 - 05.10: (Lecture) Correspondence between declarative and operational semantics SC, part 2 
 - 09.10: (Seminar) Review of homework assignments 
 - 12.10: (Seminar) Atomics in C/C++ language, model checking concurrent programs with GenMC 
-- 16.10: (Lecture) Correspondence between declarative and operational semantics:  StrongCOH, RA 
+- 16.10: (Lecture) Correspondence between declarative and operational semantics: StrongCOH, RA 
 - 19.10: (Seminar) Correspondence between declarative and operational semantics: StrongCOH, RA, SRA 
 - 26.10: (Seminar) Discussion of the homework assignments
 - 30.10: (Lecture) Correctness of compilation under weak memory models 
@@ -38,8 +38,7 @@ and discuss open problems in the research area.
 - 23.11: (Lecture) Intermediate Memory Model (IMM) and compilation correctness from PL to HW models
 - 27.11: (Seminar) Programming assignments review
 - 30.11: (Seminar) Q&A, C++ and Java memory models
-- 04.12: TBA
-- 07.12: TBA
+- 07.12: (Lecture) Memory Fairness
 
 ### Grading System
 
