@@ -8,3 +8,5 @@
 
 [Weak memory models course @ Constructor'23](https://weakmemory.github.io/wmm-constructor23)
 
+[Semantics class @ Constructor and Neapolis'24](https://weakmemory.github.io/semantics-cubNeapolis24)
+
