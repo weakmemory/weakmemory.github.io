@@ -1,4 +1,12 @@
+## Research Projects
+
 [Pomsets with Transformers](https://weakmemory.github.io/pwt)
+
+## Student Projects and Theses
+
+[List of ongoing projects and completed theses](https://weakmemory.github.io/project-theses)
+
+## Courses and Classes
 
 [Coq materials for Verification School @ Sirius'21](https://weakmemory.github.io/coq-sirius21)
 
